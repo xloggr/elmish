@@ -2,8 +2,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>Elmish core for .NET apps</Description>
-    <TargetFrameworks>netstandard2.0;netstandard1.6;net461</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <VersionPrefix>3.1.0</VersionPrefix>
+    <VersionSuffix>buf</VersionSuffix>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="../src/prelude.fs" />
